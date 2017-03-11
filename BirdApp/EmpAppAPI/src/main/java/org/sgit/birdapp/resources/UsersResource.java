@@ -12,8 +12,6 @@ import javax.ws.rs.core.Response;
 
 import org.sgit.birdapp.model.Users;
 import org.sgit.birdapp.service.UserService;
-import org.sgit.empapp.model.sub.LoginModel;
-import org.sgit.empapp.util.consts.MsgConsts;
 
 @Path("/users")
 public class UsersResource {
@@ -23,7 +21,7 @@ public class UsersResource {
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getAppSettings(Users user) {
+	public Response insertUser(Users user) {
 		if(user == null) {
 	        return Response.serverError().entity("UserDetails not given").build();
 	    }
