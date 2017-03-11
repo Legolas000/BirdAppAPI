@@ -28,8 +28,8 @@ public class AuthenticationService {
 
 		// we have fixed the userid and password as admin
 		// call some UserService/LDAP here
-		boolean authenticationStatus = "javadev".equals(username)
-				&& "pass#word2".equals(password);
+		boolean authenticationStatus = "kottu".equals(username)
+				&& "password#1".equals(password);
 		return authenticationStatus;
 	}
 }

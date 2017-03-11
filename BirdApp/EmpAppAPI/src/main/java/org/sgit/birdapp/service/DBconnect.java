@@ -3,17 +3,12 @@ package org.sgit.birdapp.service;
 public class DBconnect {
 
 	String connectionUrl;
-	String Username;
-	String Password;
 
 	public String connectionString() {
 
 		try {
-
-			connectionUrl = "jdbc:mysql://localhost/test";
-			Username = "root";
-			Password = "";
-
+			
+			connectionUrl = "jdbc:sqlserver://birdapp.database.windows.net:1433;database=BirdApp;user=pandababy@birdapp;password=Sscmalith124.;";
 		} catch (Exception e) {
 			e.printStackTrace();
 
