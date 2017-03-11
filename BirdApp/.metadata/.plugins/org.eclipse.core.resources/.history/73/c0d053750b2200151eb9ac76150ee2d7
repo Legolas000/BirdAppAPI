@@ -1,0 +1,5 @@
+package org.sgit.cinnamonmobile.cinnamonmobile;
+
+public class RestAuthenticationFilter {
+
+}

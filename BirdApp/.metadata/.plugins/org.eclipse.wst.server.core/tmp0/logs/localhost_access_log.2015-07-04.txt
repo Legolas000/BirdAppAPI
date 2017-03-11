@@ -1,0 +1,12 @@
+127.0.0.1 - - [04/Jul/2015:10:48:24 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [04/Jul/2015:10:48:26 +0530] "GET /cinnamonmobile/ HTTP/1.1" 200 239
+127.0.0.1 - - [04/Jul/2015:10:48:47 +0530] "GET /cinnamonmobile/webapp/hotels HTTP/1.1" 404 1007
+127.0.0.1 - - [04/Jul/2015:10:48:47 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [04/Jul/2015:10:48:57 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:02 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:03 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:13 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:15 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:16 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:49:17 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 401 -
+127.0.0.1 - - [04/Jul/2015:10:54:15 +0530] "GET /cinnamonmobile/webapi/hotels HTTP/1.1" 200 233
