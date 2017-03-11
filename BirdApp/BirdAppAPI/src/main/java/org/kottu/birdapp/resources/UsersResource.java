@@ -1,4 +1,4 @@
-package org.sgit.birdapp.resources;
+package org.kottu.birdapp.resources;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -10,8 +10,8 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import org.sgit.birdapp.model.Users;
-import org.sgit.birdapp.service.UserService;
+import org.kottu.birdapp.model.Users;
+import org.kottu.birdapp.service.UserService;
 
 @Path("/users")
 public class UsersResource {

@@ -1,4 +1,4 @@
-package org.sgit.birdapp.service;
+package org.kottu.birdapp.service;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.json.simple.JSONObject;
-import org.sgit.birdapp.model.Birds;
-import org.sgit.birdapp.model.Users;
+import org.kottu.birdapp.model.Birds;
+import org.kottu.birdapp.model.Users;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

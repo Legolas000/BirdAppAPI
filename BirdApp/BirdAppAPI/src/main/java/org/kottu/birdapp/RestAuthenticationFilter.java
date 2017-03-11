@@ -1,4 +1,4 @@
-package org.sgit.birdapp;
+package org.kottu.birdapp;
 
 import java.io.IOException;
 

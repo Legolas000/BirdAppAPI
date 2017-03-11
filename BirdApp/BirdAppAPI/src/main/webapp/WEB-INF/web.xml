@@ -7,7 +7,7 @@
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
       <param-name>jersey.config.server.provider.packages</param-name>
-      <param-value>org.sgit.birdapp</param-value>
+      <param-value>org.kottu.birdapp</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
@@ -17,7 +17,7 @@
   </servlet-mapping>
   <filter>
     <filter-name>AuthenticationFilter</filter-name>
-    <filter-class>org.sgit.birdapp.RestAuthenticationFilter</filter-class>
+    <filter-class>org.kottu.birdapp.RestAuthenticationFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>AuthenticationFilter</filter-name>

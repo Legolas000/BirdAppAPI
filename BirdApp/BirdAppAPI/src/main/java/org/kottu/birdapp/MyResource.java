@@ -1,4 +1,4 @@
-package org.sgit.birdapp;
+package org.kottu.birdapp;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

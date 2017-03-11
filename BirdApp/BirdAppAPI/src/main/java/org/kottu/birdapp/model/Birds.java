@@ -1,4 +1,4 @@
-package org.sgit.birdapp.model;
+package org.kottu.birdapp.model;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

@@ -1,4 +1,4 @@
-package org.sgit.birdapp.service;
+package org.kottu.birdapp.service;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.sgit.birdapp.model.BirdSightings;
+import org.kottu.birdapp.model.BirdSightings;
 
 public class BirdSightingsService {
 	

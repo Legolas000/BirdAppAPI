@@ -1,4 +1,4 @@
-package org.sgit.birdapp.service;
+package org.kottu.birdapp.service;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.sgit.birdapp.model.Users;
-import org.sgit.birdapp.service.DBconnect;
+import org.kottu.birdapp.model.Users;
+import org.kottu.birdapp.service.DBconnect;
 
 public class UserService {
 

@@ -1,4 +1,4 @@
-package org.sgit.birdapp.service;
+package org.kottu.birdapp.service;
 
 public class DBconnect {
 
